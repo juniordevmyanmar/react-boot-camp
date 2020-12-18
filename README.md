@@ -10,7 +10,8 @@
 node --version
 ```
 
-**Yarn v1 has to install **
+
+**Yarn v1 has to install**
 ```
 npm install -g yarn
 
@@ -21,7 +22,7 @@ v1.22.5
 ```
 Yarn version should be 1.
 
-**Create React App **
+**Create React App**
 
 - Create React App has to install [Follow Instruction Here](https://reactjs.org/docs/create-a-new-react-app.html)
 
