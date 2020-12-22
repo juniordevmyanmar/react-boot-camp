@@ -27,3 +27,12 @@ Yarn version should be 1.
 - Create React App has to install [Follow Instruction Here](https://reactjs.org/docs/create-a-new-react-app.html)
 
 ## TODO
+
+Start React app
+
+```
+yarn start
+
+```
+
+
