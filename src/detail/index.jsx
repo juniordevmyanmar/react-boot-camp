@@ -1,6 +1,8 @@
+import { useParams } from "react-router";
 
 const Detail =function(){
-    return <>Detail</>
+    let { lat,lng } = useParams();
+    return <>{lat}{lng}</>
 }
 
 export default Detail

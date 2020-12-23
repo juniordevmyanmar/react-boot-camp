@@ -16,7 +16,7 @@ function App() {
       
       <Router>
       <Link to="/home">Home</Link>|
-      <Link to="/detail">asdf</Link>
+      <Link to="/detail/asdf/qwe">asdf</Link>
         <Switch>
           <Route exact path="/">
            Hello
@@ -24,8 +24,11 @@ function App() {
           <Route exact path="/home">
             <Home />
           </Route>
-          <Route path="/detail">
+          <Route path="/detail/:lat/:lng">
             <Detail />
+          </Route>
+          <Route path="*">
+            404
           </Route>
         </Switch>
       </Router>
