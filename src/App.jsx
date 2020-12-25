@@ -12,11 +12,10 @@ import Detail from "./detail";
 
 function App() {
   return (
-    <div data-testid="app" className="App">
+    <div data-testid="app" className="wrapper ">
       
       <Router>
-      <Link to="/home">Home</Link>|
-      <Link to="/detail/asdf/qwe">asdf</Link>
+ 
         <Switch>
           <Route exact path="/">
            Hello
