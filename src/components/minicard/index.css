@@ -1,6 +1,5 @@
 .minicard {
   border-radius: 12px;
-  box-shadow: 0px 0px 12px -1px var(--boxshadowColor);
   display: flex;
   background: var(--minicardBackground);
   flex-direction: column;
@@ -20,7 +19,7 @@
   text-align: center;
 }
 .minicard > .temperature {
-  font-size: xx-large;
+  font-size: x-large;
   margin: 0;
   text-align: center;
 }
