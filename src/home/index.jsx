@@ -1,14 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useReducerAPI } from "../api";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { useReducerAPI } from '../api'
 
-import Card from "../components/card";
-import Loading from "../components/loading";
+import Card from '../components/card'
+import Loading from '../components/loading'
 
 const Home = () => {
-  const countryState = useReducerAPI(
-    "https://simplemaps.com/static/data/country-cities/mm/mm.json"
-  );
+  const countryState = useReducerAPI('https://simplemaps.com/static/data/country-cities/mm/mm.json')
 
   return (
     <>
@@ -24,7 +22,7 @@ const Home = () => {
           </Link>
         ))}
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

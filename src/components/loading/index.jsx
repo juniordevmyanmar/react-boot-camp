@@ -1,7 +1,7 @@
 import "./index.css";
 const Loading = () => (
   <>
-    <div className="preloader" style={{ opacity: 1 }}>
+    <div data-testid="loading-id" className="preloader" style={{ opacity: 1 }}>
       <svg
         version="1.1"
         id="sun"
