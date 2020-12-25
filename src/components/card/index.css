@@ -8,10 +8,23 @@
   margin: 1rem;
   text-align: left;
 }
-.card > .city {
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+}
+.card-col {
+  display: flex;
+  flex-direction: column;
+}
+.city {
   font-size: large;
+  margin-top: 0;
+  flex-grow: 1;
+  padding-left: 2rem;
 }
 
-.card > .population {
+.population {
   font-size: medium;
+  padding-left: 2rem;
 }
