@@ -1,7 +1,7 @@
-import { render, screen } from "@testing-library/react";
-import Detail from ".";
 import { Router, Route } from "react-router-dom";
 import { createMemoryHistory } from "history";
+import { render, screen } from "@testing-library/react";
+import Detail from ".";
 
 test("renders Detail component", () => {
   const history = createMemoryHistory();
