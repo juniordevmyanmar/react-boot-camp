@@ -14,3 +14,8 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
+
+.background {
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #43cea2, #00b5b3, #0099bb, #007ab4, #185a9d);
+}
