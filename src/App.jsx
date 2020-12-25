@@ -9,13 +9,13 @@ function App() {
     <div data-testid="app" className="wrapper ">
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path={`${process.env.PUBLIC_URL}/`}>
             <Home />
           </Route>
-          <Route exact path="/home">
+          <Route exact path={`${process.env.PUBLIC_URL}/home`}>
             <Home />
           </Route>
-          <Route path="/detail/:lat/:lng">
+          <Route path={`${process.env.PUBLIC_URL}/detail/:lat/:lng`}>
             <Detail />
           </Route>
           <Route path="*">404</Route>
