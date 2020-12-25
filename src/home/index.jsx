@@ -17,7 +17,7 @@ const Home = () => {
         countryState.data.map((item) => (
           <Link
             data-testid="location"
-            to={`/detail/${item.lat}/${item.lng}`}
+            to={`${process.env.PUBLIC_URL}/detail/${item.lat}/${item.lng}`}
             key={`${item.population}-${item.city}`}
           >
             <Card name={item.city} population={item.population} />
