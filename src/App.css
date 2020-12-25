@@ -1,6 +1,6 @@
 .wrapper {
   text-align: center;
-  background-color: white;
+  background-color:var(--cloudColor);
   height: 100vh;
   overflow: scroll
 }

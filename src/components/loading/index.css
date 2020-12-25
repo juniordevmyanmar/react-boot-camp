@@ -14,7 +14,7 @@
   }
   
   path {
-    stroke: #9ea1a4;
+    stroke: var(--raindropsBackground);
     stroke-width: 0.25;
     fill: #241E20;
   }
@@ -25,7 +25,7 @@
   }
   
   #cloud path {
-    fill: #efefef;
+    fill: var(--cloudColor);
   }
   
   #sun {
@@ -46,7 +46,7 @@
   
   #sun path {
     stroke-width: 0.18;
-    fill: #9ea1a4;
+    fill: var(--raindropsBackground);
   }
   
   @keyframes rotate {
@@ -68,7 +68,7 @@
   
   .drop {
     opacity: 1;
-    background: #9ea1a4;
+    background:var(--raindropsBackground);
     display: block;
     float: left;
     width: 3px;

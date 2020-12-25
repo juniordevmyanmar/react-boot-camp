@@ -1,7 +1,11 @@
 
 :root {
-  --boxshadowColor: #2E2E2E;
   --black: #2E2E2E;
+
+  --boxshadowColor: #2E2E2E;
+
+  --raindropsBackground:#9ea1a4;
+  --cloudColor:#efefef;
 }
 
 body {
