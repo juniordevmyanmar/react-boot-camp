@@ -9,17 +9,19 @@ const Home = () => {
   const countryState = useReducerAPI(
     "https://simplemaps.com/static/data/country-cities/mm/mm.json"
   );
-  
+
   return (
     <>
-      {countryState.loading && <Loading/>}
+      {countryState.loading && <Loading />}
       {countryState.data &&
         countryState.data.map((item) => (
-          <Link to={`/detail/${item.lat}/${item.lng}`}><Card
+          <Link
+            data-testid="location"
+            to={`/detail/${item.lat}/${item.lng}`}
             key={`${item.population}-${item.city}`}
-            name={item.city}
-            population={item.population}
-          /></Link>
+          >
+            <Card name={item.city} population={item.population} />
+          </Link>
         ))}
     </>
   );
